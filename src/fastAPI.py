@@ -1,9 +1,9 @@
 import uvicorn
 from fastapi import FastAPI
-from models.DecisionTree import DecisionTree
+from .models.DecisionTree import DecisionTree
 from pydantic import BaseModel
 from typing import Optional
-from models.utils import dict_to_pandas
+from .models.utils import dict_to_pandas
 
 
 app = FastAPI()
